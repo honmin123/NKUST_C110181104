@@ -19,7 +19,7 @@ public class ex1 {
                 bufferint = hash % 23;
                 i =(int)bufferint;
                 hash=(hash -bufferint) /23;
-                bufferchar = letters.charAt(i) + bufferchar;
+                bufferchar = letters.charAt(i) + bufferchar;//111586465465241654168784468671148
                 System.out.println(bufferchar);
             }while(hash > endhash);
         return bufferchar;
