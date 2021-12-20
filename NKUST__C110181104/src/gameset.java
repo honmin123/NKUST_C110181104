@@ -9,4 +9,10 @@ public class gameset {
       mp = Mp;
       atk = Atk;
    }
-}
+   void get(){
+       System.out.println("Role:"+role);
+       System.out.println("Hp:"+hp);
+       System.out.println("Mp:"+mp);
+       System.out.println("Atk:"+atk);
+    }
+}   
